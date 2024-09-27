@@ -7,6 +7,7 @@ Then change it to make it draw a different pattern.
 import random
 import turtle
 
+turtle.goto(100,0)
 
 # Returns a random color!
 def getRandomColor():
@@ -23,7 +24,7 @@ turtle.setup (width=600, height=600)
 window = turtle.Screen()
 
 baseSize = 200  # the size of the black part of the star
-flameSize = 130  # the length of the flaming arms
+flameSize = 20  # the length of the flaming arms
 
 t = turtle.Turtle() 
 
@@ -46,7 +47,7 @@ for i in range(25):
 
     t.forward(flameSize) 
 
-    t.right(170) 
+    t.right(10) 
 
     t.forward(flameSize) 
 

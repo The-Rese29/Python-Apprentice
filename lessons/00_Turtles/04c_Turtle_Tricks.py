@@ -28,7 +28,7 @@ tina = turtle.Turtle()                  # Create a turtle named tina
 #tina.begin_fill()
 #tina.end_fill()
 #tina.fillcolor()
-
+tina.shape('turtle')
 tina.penup()
 tina.goto(0,100)
 tina.pendown()
@@ -39,7 +39,7 @@ def make_polygon(side_length, number_of_sides):
         tina.right(180-angle)
         tina.forward(side_length)
 
-make_polygon(70,4)
+make_polygon(60,9)
 
 turtle.exitonclick()                    # Close the window when we click on it
 

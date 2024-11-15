@@ -103,4 +103,8 @@ tina.goto(-60,70)
 tina.right(90)
 tina.pendown()
 tina.forward(40)
+
+
+
+
 turtle.exitonclick()                    # Close the window when we click on it

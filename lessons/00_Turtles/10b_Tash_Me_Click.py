@@ -64,3 +64,4 @@ def screen_clicked(x, y):
 screen.onclick(screen_clicked) # Important! Tell Python which function to use when the screen is clicked
 
 turtle.done() # Important! Use `done` not `exitonclick` to keep the window open
+#turtle.exitonclick()
